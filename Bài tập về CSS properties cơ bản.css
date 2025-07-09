@@ -1,0 +1,40 @@
+.transision{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(100, 150, 193);
+    border:10px solid rgb(88, 88, 213);
+    border-radius: 10px;
+    text-align: center;
+    margin:30px;
+    align-items: center;
+    font-size: 70px;
+    color: white;
+    line-height: 300px;
+    
+}
+.fade-in:hover{
+   transform:opacity: 0.5 ease-in;
+}
+lỗi không được
+.change-color:hover{
+    background-color: rgb(112, 99, 82);
+}
+.grow:hover{
+    transform:scale(1.3)
+}
+.shrink:hover{
+    transform: scale(0.5);
+}
+.rotate:hover{
+    transform: rotate(50deg);
+}
+.square-to-circle:hover{
+    border-radius:50%;
+}
+/* lỗi không được */
+
+
+.inset-border:hover {
+  box-shadow: inset 0 0 0 10px #007aff; /* Viền đè vào trong */
+  border-color: #007aff;
+}
