@@ -1,0 +1,15 @@
+.doi-goc{
+    width:400px;
+    height:400px;
+    background-color: aqua;
+    border-radius:30px;
+    padding:30px 50px;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:200px;
+}
+.doi-goc:hover{
+    transform: rotate(45deg);
+}
